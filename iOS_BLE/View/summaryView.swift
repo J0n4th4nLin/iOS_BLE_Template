@@ -112,4 +112,3 @@ struct summaryView_Previews: PreviewProvider {
     }
 }
 
-
