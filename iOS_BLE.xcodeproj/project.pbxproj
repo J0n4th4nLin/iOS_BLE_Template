@@ -8,17 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		44ADFA6028C58E99001F9E53 /* iOS_BLEApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44ADFA5F28C58E99001F9E53 /* iOS_BLEApp.swift */; };
-		44ADFA6228C58E99001F9E53 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44ADFA6128C58E99001F9E53 /* ContentView.swift */; };
 		44ADFA6428C58EA1001F9E53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44ADFA6328C58EA1001F9E53 /* Assets.xcassets */; };
 		44ADFA6728C58EA1001F9E53 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44ADFA6628C58EA1001F9E53 /* Preview Assets.xcassets */; };
+		44ADFA6F28C58ECF001F9E53 /* scanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44ADFA6E28C58ECF001F9E53 /* scanView.swift */; };
+		44ADFA7428C58F4F001F9E53 /* bleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44ADFA7328C58F4F001F9E53 /* bleModel.swift */; };
+		44ADFA7628C58F7D001F9E53 /* bleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44ADFA7528C58F7D001F9E53 /* bleExtensions.swift */; };
+		44ADFA7828C58F8E001F9E53 /* bleCentralExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44ADFA7728C58F8E001F9E53 /* bleCentralExtensions.swift */; };
+		44ADFA7A28C58FA5001F9E53 /* blePeripheralExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44ADFA7928C58FA5001F9E53 /* blePeripheralExtensions.swift */; };
+		44ADFA7E28C5900B001F9E53 /* summaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44ADFA7D28C5900B001F9E53 /* summaryViewModel.swift */; };
+		44ADFA8028C59023001F9E53 /* summaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44ADFA7F28C59023001F9E53 /* summaryView.swift */; };
+		44ADFA8328C59099001F9E53 /* halfSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44ADFA8228C59099001F9E53 /* halfSheetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		44ADFA5C28C58E99001F9E53 /* iOS_BLE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_BLE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44ADFA5F28C58E99001F9E53 /* iOS_BLEApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_BLEApp.swift; sourceTree = "<group>"; };
-		44ADFA6128C58E99001F9E53 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		44ADFA6328C58EA1001F9E53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44ADFA6628C58EA1001F9E53 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		44ADFA6E28C58ECF001F9E53 /* scanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scanView.swift; sourceTree = "<group>"; };
+		44ADFA7328C58F4F001F9E53 /* bleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bleModel.swift; sourceTree = "<group>"; };
+		44ADFA7528C58F7D001F9E53 /* bleExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bleExtensions.swift; sourceTree = "<group>"; };
+		44ADFA7728C58F8E001F9E53 /* bleCentralExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bleCentralExtensions.swift; sourceTree = "<group>"; };
+		44ADFA7928C58FA5001F9E53 /* blePeripheralExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blePeripheralExtensions.swift; sourceTree = "<group>"; };
+		44ADFA7D28C5900B001F9E53 /* summaryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = summaryViewModel.swift; sourceTree = "<group>"; };
+		44ADFA7F28C59023001F9E53 /* summaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = summaryView.swift; sourceTree = "<group>"; };
+		44ADFA8228C59099001F9E53 /* halfSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = halfSheetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				44ADFA5F28C58E99001F9E53 /* iOS_BLEApp.swift */,
-				44ADFA6128C58E99001F9E53 /* ContentView.swift */,
+				44ADFA6D28C58EAE001F9E53 /* View */,
+				44ADFA7028C58EF6001F9E53 /* Model */,
+				44ADFA7128C58F11001F9E53 /* ViewModel */,
+				44ADFA7228C58F1C001F9E53 /* Extensions */,
 				44ADFA6328C58EA1001F9E53 /* Assets.xcassets */,
 				44ADFA6528C58EA1001F9E53 /* Preview Content */,
 			);
@@ -65,6 +82,50 @@
 				44ADFA6628C58EA1001F9E53 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		44ADFA6D28C58EAE001F9E53 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				44ADFA7F28C59023001F9E53 /* summaryView.swift */,
+				44ADFA6E28C58ECF001F9E53 /* scanView.swift */,
+				44ADFA8128C5907D001F9E53 /* Animation */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		44ADFA7028C58EF6001F9E53 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				44ADFA7328C58F4F001F9E53 /* bleModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		44ADFA7128C58F11001F9E53 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				44ADFA7D28C5900B001F9E53 /* summaryViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		44ADFA7228C58F1C001F9E53 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				44ADFA7528C58F7D001F9E53 /* bleExtensions.swift */,
+				44ADFA7728C58F8E001F9E53 /* bleCentralExtensions.swift */,
+				44ADFA7928C58FA5001F9E53 /* blePeripheralExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		44ADFA8128C5907D001F9E53 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				44ADFA8228C59099001F9E53 /* halfSheetView.swift */,
+			);
+			path = Animation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +198,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44ADFA6228C58E99001F9E53 /* ContentView.swift in Sources */,
+				44ADFA7A28C58FA5001F9E53 /* blePeripheralExtensions.swift in Sources */,
+				44ADFA7628C58F7D001F9E53 /* bleExtensions.swift in Sources */,
+				44ADFA7E28C5900B001F9E53 /* summaryViewModel.swift in Sources */,
+				44ADFA6F28C58ECF001F9E53 /* scanView.swift in Sources */,
+				44ADFA7828C58F8E001F9E53 /* bleCentralExtensions.swift in Sources */,
+				44ADFA8028C59023001F9E53 /* summaryView.swift in Sources */,
+				44ADFA7428C58F4F001F9E53 /* bleModel.swift in Sources */,
 				44ADFA6028C58E99001F9E53 /* iOS_BLEApp.swift in Sources */,
+				44ADFA8328C59099001F9E53 /* halfSheetView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +338,8 @@
 				DEVELOPMENT_TEAM = 8BP5898XVJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +369,8 @@
 				DEVELOPMENT_TEAM = 8BP5898XVJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

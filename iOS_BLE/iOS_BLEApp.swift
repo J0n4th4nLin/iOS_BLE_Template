@@ -11,7 +11,7 @@ import SwiftUI
 struct iOS_BLEApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            summaryView()
         }
     }
 }
