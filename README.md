@@ -10,7 +10,16 @@ There are basic BLE fetures and view in this project.
 4. Decode data which it from BLE. //One is raw data which don't split, another is split.
 ### View
 1. summaryView // print data which received from BLE.  
-2. scanView // list all peripherals when central scanning.
+2. scanView // list all peripherals when central scanning.  
+### Note: 
+  This template data is received temperature from my BLE device, so my code I gonna use "receiveTemp", "tempForSummary" as a name of the parameter. You can modify by you.  
+### The code you need to modify by you(Just two)   
+  #### Model: bleModel   
+   UUID： Adjust to your specifications   
+  #### Extensions: blePeripheralExtensions   
+   Decode: Adjust to your packets specifications  
+  #### Flow after you decode:    
+  After you already decode, you can right click "receiveTemp" and click "jump to definition", you gonna back to bleModel, you can right click "tempForSummary" and click "jump to definition", you gonna jump to summaryViewModel, this part of connection bleModel and summaryView. This part you don't need to modify the code, I just wanna let you know data flow, so you can go to summaryView directly which demonstrate your data.  
 
 ### View on iPhone  
 SummaryView // Your main view. 
