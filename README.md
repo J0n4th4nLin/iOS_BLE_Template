@@ -2,7 +2,7 @@
 There are basic BLE fetures and view in this project.  
 ### Enviroment / Version 
 1. macOS Monterey 12.4, Xcode 13.4.1, iOS15 (Available)
-2. macOS Monterey 12.4, Xcode 14, iOS16 (Untested)
+2. macOS Monterey 12.6, Xcode 14, iOS16 (Available)
 ### BLE Features     
 1. Scan peripherals.   
 2. Connect peripheral.  
