@@ -17,3 +17,4 @@ SummaryView // Your main view.
 ![IMG_9198](https://user-images.githubusercontent.com/43193762/188367451-0d811236-54f2-4f60-b345-97d75abb86c0.PNG)
 ScanView gonna pop up when u click "Summary" of top word.
 ![IMG_9199](https://user-images.githubusercontent.com/43193762/188368208-cb349c43-33e1-42f1-92c8-8c3646130957.PNG)
+<img src="https://user-images.githubusercontent.com/43193762/188368208-cb349c43-33e1-42f1-92c8-8c3646130957.PNG" width="200" height="400" />
