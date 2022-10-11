@@ -93,7 +93,7 @@ extension BLEManager: CBPeripheralDelegate{
         //[2]...[5] 4Bytes, PPG1: Red Light
         let data_1 = Int32(characteristicData[2]) << 24 + Int32(characteristicData[3]) << 16 + Int32(characteristicData[4]) << 8 + Int32(characteristicData[5])
 
-//        //[6]...[9] 4Bytes, PPG2: Green Light
+        //[6]...[9] 4Bytes, PPG2: Green Light
         let data_2 = Int32(characteristicData[6]) << 24 + Int32(characteristicData[7]) << 16 + Int32(characteristicData[8]) << 8 + Int32(characteristicData[9])
 
         //[10]...[13] 4Bytes, PPG3:IR Light
