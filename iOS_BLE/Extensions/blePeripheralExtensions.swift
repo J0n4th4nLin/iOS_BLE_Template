@@ -85,9 +85,9 @@ extension BLEManager: CBPeripheralDelegate{
     private func decode_RAW(from characteristic: CBCharacteristic) ->  Double {
         guard let characteristicData = characteristic.value else { return -1 }
 
-        //[0]...[1] 2Bytes, BodyTemperture
+        //[0]...[1] 2Bytes, BodyTemperature
         let bodyTemp = Int16(characteristicData[0]) << 8 + Int16(characteristicData[1])
-        var temp = (Double(bodyTemp)*0.005)
+        let temp = (Double(bodyTemp)*0.005)
         receiveTemp(temp: temp)
 
         //[2]...[5] 4Bytes, PPG1: Red Light
